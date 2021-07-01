@@ -1,2 +1,6 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<%= link_to "Buyer Console", buyer_index_path, class:"btn btn-secondary" %>
+<br/>
+<br/>
+<%= link_to "Seller Console", seller_index_path, class:"btn btn-secondary" %>
+<br/>
+<%= link_to "Sign_Out",  destroy_user_session_path, method: :delete, class:"btn btn-secondary" %>
